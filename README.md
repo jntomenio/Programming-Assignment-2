@@ -17,7 +17,7 @@ Normalization is one of the most basic preprocessing techniques in data analytic
 
 ![image](https://github.com/user-attachments/assets/4d721c9d-034e-4c27-be01-c81fce3817fc)
 
-> [!TIP]
+> [!IMPORTANT]
 > In Python, element-wise mean and element-wise standard deviation can be obtained by using *.mean()* and *.std()*.
 
  ### EXAMPLE
@@ -67,9 +67,11 @@ print("The Mean for overall matrix:", np.mean((X)),
 --- 
 
 ## 2. *Divisible By 3 Problem*
-Create the following 10 x 10 array which are the squares of the first 100 positive integers. From this array, determine all the elements that are divisible only by 3.
+### EXAMPLE
+- Create a 10 x 10 array which are the squares of the first 100 positive integers
+- From this array, determine all the elements that are divisible only by 3.
 
-##### :keyboard: *Input:*
+#### :keyboard: *Input:*
 ```python
 import numpy as np
 
