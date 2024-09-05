@@ -1,6 +1,6 @@
 # PA2 - Numerical Python (NUMPY)
 
-> [!NOTE]
+
 > :open_book: *NumPy (Numerical Python)* - is an open-source Library widely used in science and engineering. The NumPy Library contains multidimensional array data structures, such as the homogeneous, N-dimensional ndarray, and an extensive Library of functions that are known for their efficiency in operating on these data structures.[^1] This repository incorporates Python code to decipher two programming problems titled: **Normalization** and **Divisible By 3**.
 
 [^1]: https://numpy.org/doc/stable/user/absolute_beginners.html
