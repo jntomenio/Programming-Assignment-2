@@ -1,5 +1,7 @@
 [![Up to Date](https://github.com/ikatyang/emoji-cheat-sheet/workflows/Up%20to%20Date/badge.svg)](https://github.com/ikatyang/emoji-cheat-sheet/actions?query=workflow%3A%22Up+to+Date%22)
 
+<!-- ![Build Status](https://travis-ci.org/yourusername/yourproject.svg?branch=main) -->
+
 # PA2 - Numerical Python (NUMPY)
 
 
@@ -15,8 +17,9 @@ Normalization is one of the most basic preprocessing techniques in data analytic
 
 ![image](https://github.com/user-attachments/assets/4d721c9d-034e-4c27-be01-c81fce3817fc)
 
-- In Python, element-wise mean and element-wise standard deviation can be obtained by using .mean() and .std(). 
-- In this problem, a randomize 5 x 5 ndarray and store it to variable X. Normalize X. Save your normalized ndarray as *`X_normalized.npy`*
+- In Python, element-wise mean and element-wise standard deviation can be obtained by using *.mean()* and *.std()*.
+- In this problem, generate randomize 5 x 5 ndarray and store it to variable X. Then, Normalize X.
+- :floppy_disk: Save your normalized ndarray as `X_normalized.npy`
 
 ##### :keyboard: *Input:*
 ```python
