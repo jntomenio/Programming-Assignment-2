@@ -21,7 +21,8 @@ Normalization is one of the most basic preprocessing techniques in data analytic
 - In this problem, generate randomize 5 x 5 ndarray and store it to variable X. Then, Normalize X.
 - :floppy_disk: Save your normalized ndarray as `X_normalized.npy`
 
-##### :keyboard: *Input:*
+##### :keyboard: Input:
+A randomly generated 5x5 ndarray.
 ```python
 import numpy as np
 
@@ -43,6 +44,7 @@ X
 ![image](https://github.com/user-attachments/assets/1652f345-53ef-4b99-a935-a0fb214d6420)
 
 ##### :computer: *Output:*
+A normalized 5x5 ndarray saved in X_normalized.npy
 ```python
 # Load the normalized matrix from a .npy file
 norm_matrix = np.load("X_normalized.npy")
@@ -89,6 +91,7 @@ print("The Squares of the First 100 Positive Integers:\n\n",A)
 ##### :heavy_check_mark: *Expected Input:*
 ![image](https://github.com/user-attachments/assets/17475aad-2730-4f68-80a8-73adadc1ac83)
 
+##### :computer: *Output:*
 ```python
 # Load the NumPy array from the specified file "div_by_3.npy"
 div3_matrix = np.load("div_by_3.npy")
