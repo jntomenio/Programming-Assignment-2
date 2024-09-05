@@ -27,7 +27,8 @@ def normalization(X):
 np.save('X_normalized.npy', normalization(X))
 # Display the original randomize matrix
 X
-
+```
+```python
 # Load the normalized matrix from a .npy file
 norm_matrix = np.load("X_normalized.npy")
 
@@ -41,23 +42,33 @@ print("The Mean for overall matrix:", np.mean((X)),
 ```
 
 ## DIVISIBLE BY 3 PROBLEM
+Create the following 10 x 10 array which are the squares of the first 100 positive integers. From this array, determine all the elements that are divisible only by 3.
 
 ```python
 import numpy as np
 
+# Create an array of squares of the first 100 positive integers
 A = np.arange(1,101,1)**2
 
+# Reshape the array into a 10x10 matrix
 A = A.reshape(10,10)
 
 def div3(array):
-	array = array[array%3 == 0]
-	return array
+    # Filter the array to include only elements that are divisible by 3
+    array = array[array%3 == 0]
+    return array
 
+# Save the filtered array (elements divisible by 3) to a .npy file
 np.save("div_by_3.npy",div3(A))
 
+# Display the 10x10 matrix of squares
 print("The Squares of the First 100 Positive Integers:\n\n",A)
+```
 
+```python
+# Load the NumPy array from the specified file "div_by_3.npy"
 div3_matrix = np.load("div_by_3.npy")
 
-print("The Elements that are divisible by 3:\n\n",div3_matrix)
+# Print a message indicating the elements that are divisible by 3 using the contents of the div3_matrix
+print("The Elements that are divisible by 3:\n\n", div3_matrix)
 ```
