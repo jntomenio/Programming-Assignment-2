@@ -7,6 +7,18 @@
 ## NORMALIZATION PROBLEM
 import numpy as np
 
+
+def alphabet_soup (word):
+    #Sort the characters and join them into a single string
+    return ''.join(sorted(word))
+
+#Ask the user for input
+user_word = input("Enter a word: ")
+
+#Get and print the alphabetically sorted word
+print(alphabet_soup(user_word))
+
+
 X = np.random.random((5, 5))
 
 def normalization(X):
