@@ -1,4 +1,4 @@
-# **PA2 - Numerical Python**
+# **PA2 - Numerical Python (NUMPY)**
 #### Name: Tomenio, Julian Bernice Kristoffer
 #### Section: 2ECE-A
 
