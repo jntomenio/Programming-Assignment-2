@@ -21,7 +21,7 @@ Normalization is one of the most basic preprocessing techniques in data analytic
 - In this problem, generate randomize 5 x 5 ndarray and store it to variable X. Then, Normalize X.
 - :floppy_disk: Save your normalized ndarray as `X_normalized.npy`
 
-##### :keyboard: Input:
+##### :keyboard: *Input:*
 A randomly generated 5x5 ndarray.
 ```python
 import numpy as np
