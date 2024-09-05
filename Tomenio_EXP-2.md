@@ -7,6 +7,7 @@
 ## NORMALIZATION PROBLEM
 import numpy as np
 
+paste code
 X = np.random.random((5, 5))
 
 def normalization(X):
