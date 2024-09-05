@@ -92,5 +92,3 @@ print("The Elements that are divisible by 3:\n\n", div3_matrix)
 ```
 ##### :white_check_mark: *Expected Output:*
 ![image](https://github.com/user-attachments/assets/0a24e9cc-b0dd-4fff-91ab-2a616806efa0)
-
- @jntomenio, For further improvement/s of my coding skill by sending a feedback directly to me.
