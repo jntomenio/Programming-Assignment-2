@@ -13,10 +13,10 @@ Normalization is one of the most basic preprocessing techniques in data analytic
 
 ![image](https://github.com/user-attachments/assets/4d721c9d-034e-4c27-be01-c81fce3817fc)
 
-In Python, element-wise mean and element-wise standard deviation can be obtained by using .mean() and .std() calls. 
-In this problem, create a random 5 x 5 ndarray and store it to variable X. Normalize X. Save your normalized ndarray as *X_normalized.npy*
+> In Python, element-wise mean and element-wise standard deviation can be obtained by using .mean() and .std() calls. 
+In this problem, a randomize 5 x 5 ndarray and store it to variable X. Normalize "X". Save your normalized ndarray as *X_normalized.npy*
 
-##### *Input:*
+##### :keyboard: *Input:*
 ```python
 import numpy as np
 
@@ -34,10 +34,10 @@ np.save('X_normalized.npy', normalization(X))
 X
 ```
 
-##### *One of the Expected Input (random numbers):*
+##### :heavy_check_mark: *One of the Expected Input (random numbers):*
 ![image](https://github.com/user-attachments/assets/1652f345-53ef-4b99-a935-a0fb214d6420)
 
-##### *Output:*
+##### :computer: *Output:*
 ```python
 # Load the normalized matrix from a .npy file
 norm_matrix = np.load("X_normalized.npy")
@@ -51,14 +51,14 @@ print("The Mean for overall matrix:", np.mean((X)),
       "\n\nAs a result the normalized matrix:\n\n", norm_matrix)
 ```
 
-##### *Expected Output:*
+##### :white_check_mark: *Expected Output:*
 ![image](https://github.com/user-attachments/assets/8c937782-faae-4f02-9970-43a24a7a8cc5)
 
 
 ## 2. *Divisible By 3 Problem*
 Create the following 10 x 10 array which are the squares of the first 100 positive integers. From this array, determine all the elements that are divisible only by 3.
 
-##### *Input:*
+##### :keyboard: *Input:*
 ```python
 import numpy as np
 
@@ -80,7 +80,7 @@ np.save("div_by_3.npy",div3(A))
 print("The Squares of the First 100 Positive Integers:\n\n",A)
 ```
 
-##### *Expected Outcome:*
+##### :heavy_check_mark: *Expected Input:*
 ![image](https://github.com/user-attachments/assets/17475aad-2730-4f68-80a8-73adadc1ac83)
 
 ```python
@@ -90,5 +90,5 @@ div3_matrix = np.load("div_by_3.npy")
 # Print the elements that are divisible by 3 using the contents of the div3_matrix
 print("The Elements that are divisible by 3:\n\n", div3_matrix)
 ```
-##### *Expected Outcome:*
+##### :white_check_mark: *Expected Output:*
 ![image](https://github.com/user-attachments/assets/0a24e9cc-b0dd-4fff-91ab-2a616806efa0)
