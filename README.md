@@ -2,7 +2,7 @@
 
 <!-- ![Build Status](https://travis-ci.org/yourusername/yourproject.svg?branch=main) -->
 
-# PA2 - Numerical Python (NUMPY)
+# :bookmark_tabs: PA2 - Numerical Python (NUMPY)
 
 
 > [!NOTE]
