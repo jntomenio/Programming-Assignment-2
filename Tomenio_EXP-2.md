@@ -10,8 +10,8 @@ import numpy as np
 X = np.random.random((5, 5))
 
 def normalization(X):
-    normal = (X - np.mean(X))/np.std(X)
-    return normal
+	normal = (X - np.mean(X))/np.std(X)
+	return normal
 
 np.save('X_normalized.npy', normalization(X))
 X
@@ -29,8 +29,8 @@ A = np.arange(1,101,1)**2
 A = A.reshape(10,10)
 
 def div3(array):
-    array = array[array%3 == 0]
-    return array
+	array = array[array%3 == 0]
+	return array
 
 np.save("div_by_3.npy",div3(A))
 
