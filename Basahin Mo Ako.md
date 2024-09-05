@@ -1,4 +1,4 @@
-# **EXPERIMENT #2 - Numerical Python**
+# **PA2 - Numerical Python**
 #### Name: Tomenio, Julian Bernice Kristoffer
 #### Section: 2ECE-A
 
