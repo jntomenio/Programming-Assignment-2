@@ -79,7 +79,7 @@ print("The Squares of the First 100 Positive Integers:\n\n",A)
 # Load the NumPy array from the specified file "div_by_3.npy"
 div3_matrix = np.load("div_by_3.npy")
 
-# Print a message indicating the elements that are divisible by 3 using the contents of the div3_matrix
+# Print the elements that are divisible by 3 using the contents of the div3_matrix
 print("The Elements that are divisible by 3:\n\n", div3_matrix)
 ```
 ##### *Expected Outcome:*
