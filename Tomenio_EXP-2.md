@@ -1,8 +1,5 @@
 ## **EXPERIMENT #2 - Numerical Python**
 **Coder: Tomenio, Julian Bernice Kristoffer**
-#### Section: 2ECE-A
-
-#### Date Submitted: September 03, 2024
 
 ## NORMALIZATION PROBLEM
 Normalization is one of the most basic preprocessing techniques in data analytics. This involves centering and scaling process. Centering means subtracting the data from the mean and scaling means dividing with its standard deviation. Mathematically, normalization can be expressed as:
@@ -15,13 +12,17 @@ In this problem, create a random 5 x 5 ndarray and store it to variable X. Norma
 ```python
 import numpy as np
 
+# Generate a 5x5 matrix of random numbers between 0 and 1
 X = np.random.random((5, 5))
 
 def normalization(X):
-	normal = (X - np.mean(X))/np.std(X)
-	return normal
+    # Normalize the input matrix X by subtracting the mean and dividing by the standard deviation
+    normal = (X - np.mean(X)) / np.std(X)
+    return normal
 
+# Save the normalized matrix to a .npy file
 np.save('X_normalized.npy', normalization(X))
+# Display the original random matrix
 X
 
 norm_matrix = np.load("X_normalized.npy")
