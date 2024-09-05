@@ -1,6 +1,6 @@
 ## **EXPERIMENT #2 - Numerical Python**
 **Coder: Tomenio, Julian Bernice Kristoffer**
-**Section: 2ECE-A**
+#### Section: 2ECE-A
 
 #### Date Submitted: September 03, 2024
 
