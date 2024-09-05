@@ -25,10 +25,16 @@ np.save('X_normalized.npy', normalization(X))
 # Display the original random matrix
 X
 
+# Load the normalized matrix from a .npy file
 norm_matrix = np.load("X_normalized.npy")
-rounded_std = round(np.std(X),4)
 
-print("The Mean for overall matrix:",np.mean((X)),"\n\nThe Standard Deviation of the matrix:",rounded_std,"\n\nAs a result the normalized matrix:\n\n",norm_matrix)
+# Calculate the standard deviation of the original matrix X and round it to 4 decimal places
+rounded_std = round(np.std(X), 4)
+
+# Print the mean of the original matrix X, the rounded standard deviation, and the normalized matrix
+print("The Mean for overall matrix:", np.mean((X)), 
+      "\n\nThe Standard Deviation of the matrix:", rounded_std, 
+      "\n\nAs a result the normalized matrix:\n\n", norm_matrix)
 ```
 
 ## DIVISIBLE BY 3 PROBLEM
