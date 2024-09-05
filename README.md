@@ -1,4 +1,7 @@
+[![Up to Date](https://github.com/ikatyang/emoji-cheat-sheet/workflows/Up%20to%20Date/badge.svg)](https://github.com/ikatyang/emoji-cheat-sheet/actions?query=workflow%3A%22Up+to+Date%22)
+
 # PA2 - Numerical Python (NUMPY)
+
 
 > [!NOTE]
 > :open_book: *NumPy (Numerical Python)* - is an open-source Library widely used in science and engineering. The NumPy Library contains multidimensional array data structures, such as the homogeneous, N-dimensional ndarray, and an extensive Library of functions that are known for their efficiency in operating on these data structures.[^1] This repository incorporates Python code to decipher two programming problems titled: **Normalization** and **Divisible By 3**.
@@ -6,7 +9,7 @@
 [^1]: https://numpy.org/doc/stable/user/absolute_beginners.html
 
 ## 1. *Normalization Problem*
-> Normalization is one of the most basic preprocessing techniques in data analytics. This involves centering and scaling process. Centering means subtracting the data from the mean and scaling means dividing with its standard deviation. Mathematically, normalization can be expressed as:
+Normalization is one of the most basic preprocessing techniques in data analytics. This involves centering and scaling process. Centering means subtracting the data from the mean and scaling means dividing with its standard deviation. Mathematically, normalization can be expressed as:
 
 ![image](https://github.com/user-attachments/assets/4d721c9d-034e-4c27-be01-c81fce3817fc)
 
