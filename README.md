@@ -1,7 +1,6 @@
 # **PA2 - Numerical Python (NUMPY)**
 #### Name: Tomenio, Julian Bernice Kristoffer
 #### Section: 2ECE-A
-
 #### Date Submitted: September 05, 2024
 
 ## 1. Normalization Problem
@@ -28,7 +27,8 @@ np.save('X_normalized.npy', normalization(X))
 # Display the original randomize matrix
 X
 ```
-##### One of Expected Outcome (random numbers):
+
+##### *One of the Expected Output (random numbers):*
 ![image](https://github.com/user-attachments/assets/1652f345-53ef-4b99-a935-a0fb214d6420)
 
 ```python
@@ -43,8 +43,10 @@ print("The Mean for overall matrix:", np.mean((X)),
       "\n\nThe Standard Deviation of the matrix:", rounded_std, 
       "\n\nAs a result the normalized matrix:\n\n", norm_matrix)
 ```
-##### Expected Outcome:
+
+##### *Expected Output:*
 ![image](https://github.com/user-attachments/assets/8c937782-faae-4f02-9970-43a24a7a8cc5)
+
 
 ## 2. Divisible By 3 Problem
 Create the following 10 x 10 array which are the squares of the first 100 positive integers. From this array, determine all the elements that are divisible only by 3.
@@ -70,7 +72,7 @@ np.save("div_by_3.npy",div3(A))
 print("The Squares of the First 100 Positive Integers:\n\n",A)
 ```
 
-##### Expected Outcome:
+##### *Expected Outcome:*
 ![image](https://github.com/user-attachments/assets/17475aad-2730-4f68-80a8-73adadc1ac83)
 
 ```python
@@ -80,6 +82,5 @@ div3_matrix = np.load("div_by_3.npy")
 # Print a message indicating the elements that are divisible by 3 using the contents of the div3_matrix
 print("The Elements that are divisible by 3:\n\n", div3_matrix)
 ```
-##### Expected Outcome:
+##### *Expected Outcome:*
 ![image](https://github.com/user-attachments/assets/0a24e9cc-b0dd-4fff-91ab-2a616806efa0)
-
