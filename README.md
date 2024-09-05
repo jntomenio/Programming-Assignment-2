@@ -21,7 +21,7 @@ Normalization is one of the most basic preprocessing techniques in data analytic
 > In Python, element-wise mean and element-wise standard deviation can be obtained by using *.mean()* and *.std()*.
 
  ### EXAMPLE
-- In this problem, generate randomize 5 x 5 ndarray and store it to variable X. Then, Normalize X.
+- In this problem, generate randomize 5 x 5 ndarray and store it to variable X. Then, normalize variable X.
 - :floppy_disk: Save your normalized ndarray as `X_normalized.npy`
 
 ##### :keyboard: *Input:*
