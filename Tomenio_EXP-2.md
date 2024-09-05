@@ -1,6 +1,6 @@
 ## **EXPERIMENT #2 - Numerical Python**
-#### Name: Tomenio, Julian Bernice Kristoffer
-#### Section: 2ECE-A
+Name: Tomenio, Julian Bernice Kristoffer
+Section: 2ECE-A
 
 #### Date Submitted: September 03, 2024
 
