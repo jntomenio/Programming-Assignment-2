@@ -16,7 +16,7 @@ import numpy as np
 X = np.random.random((5, 5))
 
 def normalization(X):
-    # Normalize the input matrix X by subtracting the mean and dividing by the standard deviation
+# Normalize the input matrix X by subtracting the mean and dividing by the standard deviation
     normal = (X - np.mean(X)) / np.std(X)
     return normal
 
