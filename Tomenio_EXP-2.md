@@ -5,9 +5,9 @@
 #### Date Submitted: September 03, 2024
 
 ## NORMALIZATION PROBLEM
+```python
 import numpy as np
 
-paste code
 X = np.random.random((5, 5))
 
 def normalization(X):
@@ -21,8 +21,10 @@ norm_matrix = np.load("X_normalized.npy")
 rounded_std = round(np.std(X),4)
 
 print("The Mean for overall matrix:",np.mean((X)),"\n\nThe Standard Deviation of the matrix:",rounded_std,"\n\nAs a result the normalized matrix:\n\n",norm_matrix)
+``
 
 ## DIVISIBLE BY 3 PROBLEM
+```python
 import numpy as np
 
 A = np.arange(1,101,1)**2
@@ -40,3 +42,4 @@ print("The Squares of the First 100 Positive Integers:\n\n",A)
 div3_matrix = np.load("div_by_3.npy")
 
 print("The Elements that are divisible by 3:\n\n",div3_matrix)
+```
