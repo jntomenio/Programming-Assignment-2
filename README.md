@@ -8,13 +8,15 @@
 
 [^1]: https://numpy.org/doc/stable/user/absolute_beginners.html
 
+---
+
 ## 1. *Normalization Problem*
 Normalization is one of the most basic preprocessing techniques in data analytics. This involves centering and scaling process. Centering means subtracting the data from the mean and scaling means dividing with its standard deviation. Mathematically, normalization can be expressed as:
 
 ![image](https://github.com/user-attachments/assets/4d721c9d-034e-4c27-be01-c81fce3817fc)
 
-- In Python, element-wise mean and element-wise standard deviation can be obtained by using .mean() and .std() calls. 
-- In this problem, a randomize 5 x 5 ndarray and store it to variable X. Normalize "X". Save your normalized ndarray as *X_normalized.npy*
+- In Python, element-wise mean and element-wise standard deviation can be obtained by using .mean() and .std(). 
+- In this problem, a randomize 5 x 5 ndarray and store it to variable X. Normalize X. Save your normalized ndarray as *`X_normalized.npy`*
 
 ##### :keyboard: *Input:*
 ```python
@@ -54,6 +56,7 @@ print("The Mean for overall matrix:", np.mean((X)),
 ##### :white_check_mark: *Expected Output:*
 ![image](https://github.com/user-attachments/assets/8c937782-faae-4f02-9970-43a24a7a8cc5)
 
+--- 
 
 ## 2. *Divisible By 3 Problem*
 Create the following 10 x 10 array which are the squares of the first 100 positive integers. From this array, determine all the elements that are divisible only by 3.
